@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Pengguna</title>
+    <link rel="stylesheet" href="./css/cari.css">
+</head>
+<body>
+
+<div class="search-container">
+    <h2>Cari Pengguna</h2>
+    
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Masukkan nama pengguna">
+        <button onclick="cariPengguna()">Cari</button>
+    </div>
+
+    <div class="hasil-pencarian" id="hasilPencarian">
+        
+        <div class="user-card">
+            <img src="avatar.jpg" alt="Avatar" class="user-avatar">
+            <h3>Nama Pengguna</h3>
+            <p>Deskripsi singkat atau status pengguna.</p>
+            <button onclick="tawarkanKolaborasi()">Tawarkan Kolaborasi</button>
+        </div>
+    </div>
+
+   
+    <div class="navigation-options">
+        <div class="login-options">
+            <button onclick="redirectToBeranda()">Kembali ke Beranda</button>
+        </div>
+    </div>
+</div>
+
+<script src="./java/cari.js"></script>
+
+</body>
+</html>
