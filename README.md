@@ -5,3 +5,5 @@ Website Meetra ini di kembangkan oleh tim JARVIS dengan 4 anggota :
 2. Edo Wicaksono (Hipster) 
 3. Jeremiah Alwin Siahaan (Hacker) 
 4. Sella Juniastia Marsya Saputri (Hacker)
+
+*note untuk login = Username: example; Pass: password
